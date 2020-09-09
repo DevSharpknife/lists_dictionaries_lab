@@ -61,12 +61,15 @@ users = {
 # print(users["Erik"]["home_town"])
 
 # 3. Get the array of Erik's lottery numbers
-print(users["Erik"]["lottery_numbers"])
+# print(users["Erik"]["lottery_numbers"])
 
 # 4. Get the species of Avril's pet Monty
-print(users["Avril"]["pets"][0]["name"])
+# print(users["Avril"]["pets"][0]["name"])
 
 # 5. Get the smallest of Erik's lottery numbers
+print(users["Erik"]["lottery_numbers"][2])
+#def lowest_number(lottery_numbers)
+
 # 6. Return an array of Avril's lottery numbers that are even
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
 # 8. Change Erik's hometown to Edinburgh
