@@ -22,8 +22,9 @@ stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Ha
 # print(len(stops))
 
 #8. Sort the list alphabetically
-stops.sort()
-print(stops)
+# stops.sort()
 
 #9. Reverse the positions of the stops in the list
+print(stops.sort(reverse=True))
+
 #10 Print out all the stops using a for loop
