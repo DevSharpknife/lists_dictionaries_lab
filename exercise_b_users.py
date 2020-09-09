@@ -67,8 +67,9 @@ users = {
 # print(users["Avril"]["pets"][0]["name"])
 
 # 5. Get the smallest of Erik's lottery numbers
-print(users["Erik"]["lottery_numbers"][2])
-#def lowest_number(lottery_numbers)
+##print(users["Erik"]["lottery_numbers"][2]) - PRESUME THIS IS TOO SIMPLE
+def lowest_number(lottery_numbers)
+    users(["Erik"])
 
 # 6. Return an array of Avril's lottery numbers that are even
 # 7. Erik is one lottery number short! Add the number `7` to be included in his lottery numbers
